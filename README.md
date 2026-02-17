@@ -42,27 +42,44 @@ Custom Font Integration (Amiri, Hind Siliguri, Digital)
 
 Google Nav Bar
 
-🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 The project follows a modular, scalable, and maintainable structure:
+
 lib/
- ├── app/          # App level configuration, theme, routing
- ├── data/         # Static data sources, constants, local data handling
- ├── models/       # Data models (Dua, Surah, Tasbih, etc.)
- ├── providers/    # State management using Provider
- ├── screens/      # UI screens (Presentation Layer)
- ├── widgets/      # Reusable UI components
- ├── utils/        # Helper functions, extensions, constants
- ├── extensions/   # Custom Dart extensions
- └── main.dart     # Application entry point
-🚀 Getting Started
+
+├── app/ # App level configuration, theme, routing
+
+├── data/ # Static data sources, constants, local data handling
+
+├── models/ # Data models (Dua, Surah, Tasbih, etc.)
+
+├── providers/ # State management using Provider
+
+├── screens/ # UI screens (Presentation Layer)
+
+├── widgets/ # Reusable UI components
+
+├── utils/ # Helper functions, extensions, constants
+
+├── extensions/ # Custom Dart extensions
+
+└── main.dart # Application entry point
+
 
 Clone the repository:
+
+```bash
 git clone https://github.com/likhonahamedla/Namaz-O-Zikir.git
 cd Namaz-O-Zikir
 flutter pub get
 flutter run
+
+
 📦 Release Build
+
 The project has been fully tested in release mode.
+
 To generate APK:
+
 flutter build apk --release
