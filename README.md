@@ -1,16 +1,68 @@
-# after_salat
+🕌 Namaz O Zikir
+A Production-Ready Flutter Islamic Application
 
-A new Flutter project.
+Namaz O Zikir is a fully completed and production-ready Flutter application designed to help Muslims access essential Surahs, Duas, Salat rules, and daily Adhkar in a clean and distraction-free interface.
 
-## Getting Started
+The application has been fully tested in release mode, optimized for performance, and is completely ready for Play Store deployment.
+📱 App Preview
+<p align="center"> <img src="https://raw.githubusercontent.com/likhonahamedla/Namaz-O-Zikir/81e84a384f81df762b5ab1d3859f83c0d6f9f4aa/Yellow%20%26%20Orange%20Modern%20Marketing%20Courses%20YouTube%20Thumbnail.png" width="400"> </p> <p align="center"> <img src="https://raw.githubusercontent.com/likhonahamedla/Namaz-O-Zikir/81e84a384f81df762b5ab1d3859f83c0d6f9f4aa/Yellow%20%26%20Orange%20Modern%20Marketing%20Courses%20YouTube%20Thumbnail%20(1).png" width="400"> </p>
+✨ Core Features
 
-This project is a starting point for a Flutter application.
+📖 Essential Surahs with Arabic text, pronunciation & translation
 
-A few resources to get you started if this is your first Flutter project:
+🤲 Categorized Post-Salat Adhkar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔢 Persistent Digital Tasbih Counter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🧭 Qibla Direction using device compass integration
+
+📚 Salat rules and structured guidance
+
+🎨 Clean, modern UI with custom Islamic typography
+
+📱 Fully responsive layout (ScreenUtil based scaling)
+
+💾 Local state persistence using SharedPreferences
+
+🛠️ Technical Stack
+
+Flutter (Dart SDK  3.10.4)
+
+Provider (State Management)
+
+SharedPreferences
+
+Flutter Compass
+
+Permission Handler
+
+Google Fonts
+
+Custom Font Integration (Amiri, Hind Siliguri, Digital)
+
+Google Nav Bar
+
+🏗️ Architecture Overview
+
+The project follows a modular, scalable, and maintainable structure:
+lib/
+ ├── app/          # App level configuration, theme, routing
+ ├── data/         # Static data sources, constants, local data handling
+ ├── models/       # Data models (Dua, Surah, Tasbih, etc.)
+ ├── providers/    # State management using Provider
+ ├── screens/      # UI screens (Presentation Layer)
+ ├── widgets/      # Reusable UI components
+ ├── utils/        # Helper functions, extensions, constants
+ ├── extensions/   # Custom Dart extensions
+ └── main.dart     # Application entry point
+🚀 Getting Started
+
+Clone the repository:
+git clone https://github.com/likhonahamedla/Namaz-O-Zikir.git
+cd Namaz-O-Zikir
+flutter pub get
+flutter run
+📦 Release Build
+The project has been fully tested in release mode.
+To generate APK:
+flutter build apk --release
