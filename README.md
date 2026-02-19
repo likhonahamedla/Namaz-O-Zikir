@@ -1,9 +1,10 @@
 🕌 Namaz O Zikir
-A Production-Ready Flutter Islamic Application
+
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
 ![Platform](https://img.shields.io/badge/Platform-Android-green)
 ![License](https://img.shields.io/badge/Status-Active-success)
 
+A Production-Ready Flutter Islamic Application
 
 Namaz O Zikir is a fully completed and production-ready Flutter application designed to help Muslims access essential Surahs, Duas, Salat rules, and daily Adhkar in a clean and distraction-free interface.
 
